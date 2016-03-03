@@ -1,0 +1,141 @@
+// Place all the styles related to the entries controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+body {
+	font-size: 14px;
+	background: #eeeeee;
+	color: #333333;
+	width: 520px;
+	margin: 0 auto;
+}
+.line-break{
+	text-decoration: line-through;
+}
+#toggle{
+	float:left;
+}
+.entryli{
+	float: left;
+    font-family: arial;
+    margin-top: 0px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+.delete{
+	float: right;
+    margin-top: -1px;
+    text-decoration: none;
+    font-size: 16px;
+}
+.clear_all{
+	float:right;
+	margin-top:-35px;
+}
+.active{
+	float:right;
+	margin-top:-35px;
+	margin-right:50px;
+}
+.allrecord{
+	float:right;
+	margin-top:-35px;
+	margin-right:80px;
+}
+#todoapp {
+	background: #fff;
+	padding: 20px;
+	margin-bottom: 40px;
+}
+
+#todoapp h1 {
+	font-size: 36px;
+	text-align: center;
+}
+
+#todoapp input[type="text"] {
+	width: 460px;
+    font-size: 16px;
+    line-height: 1.4em;
+    padding: 4px;
+}
+
+#main {
+	display: none;
+}
+
+#todo-list {
+	margin: 10px 0;
+	padding: 0;
+	list-style: none;
+}
+
+#todo-list li {
+	padding: 18px 20px 18px 0;
+	position: relative;
+	font-size: 24px;
+	border-bottom: 1px solid #cccccc;
+}
+
+#todo-list li:last-child {
+	border-bottom: none;
+}
+#todo-list li.done label {
+    color: #777777;
+    text-decoration: line-through;
+}
+
+#todo-list li .edit {
+    display: none;
+}
+#todo-list li.editing {
+	border-bottom: 1px solid #778899;
+}
+
+#todo-list li.editing .view {
+	display: none;
+}
+#todo-list li.editing .edit {
+	display: block;
+	width: 444px;
+	padding: 13px 15px 14px 20px;
+	margin: 0;
+}
+
+#todo-list li.done label {
+	color: #777777;
+	text-decoration: line-through;
+}
+
+#todo-list .destroy {
+	position: absolute;
+	right: 5px;
+	top: 20px;
+	display: none;
+	cursor: pointer;
+	width: 20px;
+	height: 20px;
+}
+
+#todoapp footer {
+	display: none;
+	margin: 0 -20px -20px -20px;
+	overflow: hidden;
+	color: #555555;
+	background: #f4fce8;
+	border-top: 1px solid #ededed;
+	padding: 0 20px;
+	line-height: 37px;
+}
+
+#clear-completed {
+	float: right;
+	line-height: 20px;
+	text-decoration: none;
+	background: rgba(0, 0, 0, 0.1);
+	color: #555555;
+	font-size: 11px;
+	margin-top: 8px;
+	margin-bottom: 8px;
+	padding: 0 10px 1px;
+	cursor: pointer;
+}

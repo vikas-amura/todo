@@ -1,0 +1,5 @@
+    <div class="view">
+      <input id="toggle" type="checkbox" <%= entry.get("done")=="true" ? 'checked="checked"' : '' %> />
+      <label><div class="entryli <%= entry.get("done")== "true" ? "line-break" : "" %>"><%= entry.get("name") %></div></label>
+      <a href="javascript:void(0)" class="delete">X</a>
+    </div>
