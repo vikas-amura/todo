@@ -11,6 +11,10 @@ class EntriesController < ApplicationController
     end
   end
 
+  def ng
+
+  end
+
   # GET /entries/1
   # GET /entries/1.json
   def show

@@ -1,6 +1,6 @@
 Rails.application.routes.draw do
-  #get '/*es' =>'entries#es'
   resources :entries
+  get '/*ng' =>'entries#ng'
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
