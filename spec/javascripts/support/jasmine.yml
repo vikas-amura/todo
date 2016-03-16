@@ -12,10 +12,9 @@
 #
 src_files:
   - public/javascripts/lib/jquery.js 
-  # - spec/javascripts/support/sinon-1.0.0.js
-  # - spec/javascripts/support/jasmine-sinon.js
+  - spec/javascripts/support/sinon.js
+  - spec/javascripts/support/jasmine-sinon.js
   - spec/javascripts/support/jasmine-jquery.js
-
   - assets/application.js 
 
 

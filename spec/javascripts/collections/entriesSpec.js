@@ -1,7 +1,9 @@
 describe("Todo.Collections.Entries", function() {  
   
-	beforeEach(function () {
+	beforeEach(function () {    
     this.entries = new Todo.Collections.Entries();
+
+    var collection = {url: "/entries" };
   });
   it('should be defined', function() {
     expect(Todo.Collections.Entries).toBeDefined();

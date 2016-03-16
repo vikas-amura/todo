@@ -15,5 +15,3 @@ window.Todo = {
 $(document).ready(function(){
 	Todo.initialize();
 });
-
-
